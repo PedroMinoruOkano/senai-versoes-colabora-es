@@ -1,0 +1,18 @@
+let alunos = 0;
+
+while ( alunos <= 17) 
+
+{
+    console.log (alunos)
+    
+    alunos++ 
+    
+    if (alunos == 0) {
+        console.log ("zero" + alunos);
+    } else {
+
+        if (alunos % 2 == 0) {
+            console.log("par" + alunos);
+        }else (alunos % 1 == 0) 
+    } console.log("impar" + alunos);
+}
