@@ -1,0 +1,13 @@
+let listaPecas = 3;
+let peso = 150
+let nomePeca = "CilindroMestre";
+
+if (peso >= 100 ) {
+    console.log ("Peça tem peso suficiente para cadastrar");
+ } else (listaPecas >= 10) 
+ {   console.log ("A lista está cheia, não tem capacidade suficiente para cadastrar");
+    
+}
+
+if (nomePeca.length <3) {
+    console.log("nome muito curto")};
