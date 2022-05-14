@@ -1,0 +1,9 @@
+
+let  listaDeEstudantes  =  [ "Helena" ,  "Chico" ,  "Mário" ,  "José" ,  "Maria" ] ;
+let  quantidadeDeEstudantes  =  listaEstudantes . comprimento ;
+if  ( quantidade DeEstudantes  <  5 )  {
+	listaDeEstudantes . push ( "João" ) ;
+	consola . log ( listaDeEstudantes ) ;
+}  senão  {
+	consola . log ( "Não é possível inserir mais alunos nessa turma" ) ;
+}
