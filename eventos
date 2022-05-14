@@ -1,0 +1,38 @@
+var  entrada  =  require ( "readline-sync" ) ;
+
+var  dadosAtual  =  13 ;
+var  dataEvento  =  parseFloat ( entrada.question ( " Qual dia deste mês acontece o evento?" ) ) ;
+
+if ( dataEvento  >  dataAtual ) {
+    consola . log (  " Evento confirmado. " )
+}  senão {
+    consola . log ( "Dados inválidos." ) 
+}
+
+var  idade  =  parseFloat ( entrada . question ( "Qual é a sua idade? " ) ;
+
+if ( idade  >=  18 ) {
+    consola . log (  "Você poderá ter acesso ao evento." )
+}  senão {
+    consola . log ( localizado o cadastro não poderá ser realizado )
+}
+
+var  listaPalestrantes  =  parseFloat ( entrada.question ( " Acessar lista de participantes - Digite 1 / Próxima etapa - Digite 2" ) ) ;
+
+if (  listaPalestrantes  ==  1 ) {
+    consola . log (  " - Antônio Silva - Patrícia Andrade - Isabella Soares " )
+}  senão {
+    consola . log ( "Acessando lista de participantes ---> " )
+}
+
+
+var  participantes Cadastrados  =  102 ;
+
+
+if ( partcipantesCadastrados  >  100 ) {
+    consola . log (  "não há mais vagas. " )
+}  senão {
+    consola . log ( "Parabéns! Cadastro realizado com sucesso!" )
+}
+
+consola . log ( "Fim" )
