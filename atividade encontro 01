@@ -1,0 +1,34 @@
+// Se a possuir mais de 100 gramas pode se cadastrar;
+// dado a capacidade de cada caixa, caso a lista de peças superior a 10, imprimir mensagem de erro com a mensagem Informando não ter cadacidade suficiente;
+// caso a peça tenha nome com quantidade inferior a 3 caracteres, informe uma mensagem de erro.
+
+let  entrada1  =  require ( "readline-sync" ) ;
+
+deixe  peso  =  entrada1 . question ( "Qual o peso da peca?" ) ;
+
+if ( peso  >=  100  ) {
+    consola . log ( "Peca tem peso suficiente para cadastrar" ) ;
+    
+}  senão  {
+consola . log ( "Peca com peso fora do padrao para cadastro" ) ;
+}
+
+let  entrada2  =  require ( "readline-sync" ) ;
+
+deixe  listaPecas  =  entrada2 . question ( "quantidade de pecas" ) ;
+
+if ( listaPecas  >=  10 ) {
+    consola . log ( "A Lista esta cheia, não tem capacidade suficiente para cadastro" ) ;
+}  senão  {
+    consola . log ( "Peca podera ser cadastrada! " ) ;
+}
+
+let  entrada3  =  require ( "readline-sync" ) ;
+
+deixe  nomePeca  =  entrada3 . question ( "Digite o nome da peca" ) ;
+
+if ( nomePeca . comprimento  <  3 )  {
+    consola . log ( "Nome muito curto!! cadastro deve contar mais de 3 caracteres" ) ;
+}
+
+consola . log ( "Fim do Programa" ) ;
